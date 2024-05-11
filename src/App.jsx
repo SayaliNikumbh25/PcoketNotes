@@ -33,8 +33,9 @@ function App() {
       setSelectedIcon(selectedIcon)
     }
   }, []);
+  
+  console.log('Hello')
 
-  console.log(window.innerWidth)
     if(window.innerWidth <= 576 ){
       if(!selected){
         return(
