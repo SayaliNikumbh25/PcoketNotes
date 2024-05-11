@@ -1,0 +1,154 @@
+.Notes_container{
+    background-color: #DAE5F5;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.notes-header{
+    display: flex;
+    height: 10%;
+    background-color: #001F8B;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+    width: 100%;
+    color: white;
+}
+
+.header-group-icon{
+    margin: 5px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.note-list{
+    height: 60%;
+    width: 95%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.note{
+    margin: 10px 10px;
+    margin-top: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: white;
+    
+    
+}
+.note-paragraph{
+    text-align: left;
+}
+
+.note-time{
+    text-align: right;
+}
+
+.scroll{
+    overflow: auto;
+}
+
+.add-note{
+    height: 30%;
+    background-color: #001F8B;
+    padding: 20px;
+}
+
+.add-note>div{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.add-note>div>textarea {
+    width: 100%;
+    height: 75%;
+    padding: 15px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    outline: none;
+  }
+.note-submit-button{
+    
+    height: fit-content;
+    margin: 15px;
+    margin-top: auto;
+    background: none;
+    border: none;
+}
+
+.note-submit-button[disabled]{
+    color: black;
+}
+
+
+.add-note-container{
+    display: flex;
+}
+
+
+.alternate_div_notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.alternate_Notes_container{
+    background-color: #DAE5F5;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.back-button{
+    background-color: #001F8B;
+    outline: none;
+    border: none;
+    display: none;
+}
+
+.back-button-image{
+    height: 15px;
+    width: 20px;
+}
+
+
+@media (max-width:576px) {
+    .Notes_container{
+        width: 100%;
+    }
+    .back-button{
+        display: inline;
+    }
+    
+}
+
